@@ -218,7 +218,7 @@ work". However in practice it is useful to have the concept of a base
 node that provides bootstrapping functionality as a its primary
 purpose. The problem then reduces to finding base nodes.
 
-Note: not all base nodes need to alive - you can provide a list of
+Note: not all base nodes need to be alive - you can provide a list of
 base nodes containing nodes that are down. SWIM will continue anyway
 so long as at least one node is up.
 
